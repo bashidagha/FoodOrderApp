@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../../assets/meals.jpg'
 import './header.scss'
+import HeaderCartButton from './HeaderCartButton'
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
 
         <header className='header'>
             <h1>FoodOrder</h1>
-            <button>Cart</button>
+            <HeaderCartButton/>
         </header>
 
 
