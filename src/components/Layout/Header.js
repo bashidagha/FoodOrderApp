@@ -3,13 +3,13 @@ import banner from '../../assets/meals.jpg'
 import './header.scss'
 import HeaderCartButton from './HeaderCartButton'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <React.Fragment>
 
         <header className='header'>
             <h1>FoodOrder</h1>
-            <HeaderCartButton/>
+            <HeaderCartButton onClick={props.onShowCart}/>
         </header>
 
 
